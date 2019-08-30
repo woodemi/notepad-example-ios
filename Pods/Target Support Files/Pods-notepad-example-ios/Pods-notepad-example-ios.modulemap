@@ -1,6 +1,0 @@
-framework module Pods_notepad_example_ios {
-  umbrella header "Pods-notepad-example-ios-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module NotepadKit {
-    umbrella header "NotepadKit.h"
-
-    export *
-    module * { export * }
-}
