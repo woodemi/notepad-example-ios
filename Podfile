@@ -7,7 +7,7 @@ target 'notepad-example-ios' do
   # Comment the next line if you don't want to use dynamic frameworks
 
   # Pods for notepad-example-ios
-  pod 'NotepadKit', '2.3.6'
+  pod 'NotepadKit', '2.3.9'
   
   #hud
   pod 'SVProgressHUD'
