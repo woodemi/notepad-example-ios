@@ -28,3 +28,21 @@ class MyScanDelegate : NotepadScanDelegate {
     }
 }
 ```
+
+## 绑定设备
+
+用`NotepadConnector#connect`的`authToken`绑定设备
+
+```swift
+notepadClient.claimAuth(complete: {
+    print("claimAuth complete")
+}) {
+    print("claimAuth error \($0.description)")
+}
+// ..
+notepadClient.claimAuth(complete: {
+    print("disclaimAuth complete")
+}) {
+    print("disclaimAuth error \($0.description)")
+}
+```
