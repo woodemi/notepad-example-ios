@@ -28,3 +28,21 @@ class MyScanDelegate : NotepadScanDelegate {
     }
 }
 ```
+
+## Claim notepad
+
+Claim with `authToken`, the parameter of `NotepadConnector#connect`
+
+```swift
+notepadClient.claimAuth(complete: {
+    print("claimAuth complete")
+}) {
+    print("claimAuth error \($0.description)")
+}
+// ..
+notepadClient.claimAuth(complete: {
+    print("disclaimAuth complete")
+}) {
+    print("disclaimAuth error \($0.description)")
+}
+```
