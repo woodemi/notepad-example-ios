@@ -1,7 +1,7 @@
 English | [简体中文](./README-CN.md)
 
-# notepad-example-android
-Example for notepad-android-sdk
+# notepad-example-ios
+Example for notepad-ios-sdk
 
 # Usage
 - Scan notepad
